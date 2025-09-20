@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Hi, I'm Your Name"
-excerpt: "I study interfacial phenomena—ultrapure water, CO₂/O₂ control, organics on surfaces, and AFM."
+title: "Hi, I'm Lalith Krishna Samanth"
+excerpt: "I study interfacial electrochemical phenomena using operando characterization techniques."
 author_profile: true
 ---
 
