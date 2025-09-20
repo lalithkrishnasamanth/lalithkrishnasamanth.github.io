@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-**Email**: you@university.edu  
-**Address**: Lab Name, Building, University, City, State
+**Email**: lkb3@illinois.edu  
+**Address**: Materails Research Lab (MRL), University of Illinois Urbana-Champaign, Urbana, IL
 
-For announcements and short tips, I also post on Substack: <https://yourname.substack.com/>
+For announcements and short tips, I also post on Substack: <https://lalithkrishnasamanth.substack.com/>
