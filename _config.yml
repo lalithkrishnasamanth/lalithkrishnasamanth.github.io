@@ -1,1 +1,58 @@
+title: Your Name
+description: Notes on interfaces, electrochemistry, AFM, and clean experiments.
+url: "https://lalithkrishnasamanth.github.io"   # no trailing slash
+baseurl: ""                            # empty for user sites
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+theme: null
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Top navigation
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
+
+# Author box (shows on Home & posts)
+author:
+  name: "Your Name"
+  avatar: "/assets/img/profile.jpg"   # add an image later
+  bio: "Researcher | <Dept>, <University>."
+  links:
+    - label: Email
+      icon: "fas fa-envelope"
+      url: "mailto:you@university.edu"
+    - label: Google Scholar
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/..."
+    - label: GitHub
+      icon: "fab fa-github"
+      url: "https://github.com/<username>"
+
+# Defaults
+defaults:
+  - scope: { path: "", type: "pages" }
+    values:
+      layout: single
+      author_profile: true
+  - scope: { path: "", type: "posts" }
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+
+# Markdown & Math (optional)
+markdown: kramdown
+kramdown:
+  input: GFM
