@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Research
+permalink: /research/
 ---
 
 I’m a researcher at the University of Illinois Urbana-Champaign. 
