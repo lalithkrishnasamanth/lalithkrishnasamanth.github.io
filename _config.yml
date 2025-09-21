@@ -27,17 +27,17 @@ nav:
 author:
   name: "Your Name"
   avatar: "/assets/img/profile.jpg"   # add an image later
-  bio: "Researcher | <Dept>, <University>."
+  bio: "Researcher | Dept, University."
   links:
     - label: Email
       icon: "fas fa-envelope"
       url: "mailto:you@university.edu"
     - label: Google Scholar
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/..."
+      url: "https://scholar.google.com/"
     - label: GitHub
       icon: "fab fa-github"
-      url: "https://github.com/<username>"
+      url: "https://github.com/"
 
 # Defaults
 defaults:
