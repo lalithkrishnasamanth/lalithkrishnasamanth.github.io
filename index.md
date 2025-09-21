@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Hi, I'm Lalith Krishna Samanth"
+title: "Hi, I'm ______"
 excerpt: "I study interfacial electrochemical phenomena using operando characterization techniques."
 author_profile: true
 ---
