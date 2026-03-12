@@ -1,45 +1,78 @@
-title: Your Name
-description: Notes on interfaces, electrochemistry, AFM, and clean experiments.
-url: "https://lalithkrishnasamanth.github.io"   # no trailing slash
-baseurl: ""                            # empty for user sites
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: Lalith Krishna Samanth
+description: >-
+  Notes on electrode–electrolyte interfaces, 3D-AFM, electrochemistry,
+  and the occasional deep-learning detour.
+url: "https://lalithkrishnasamanth.github.io"
+baseurl: ""
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 theme: null
+
+minimal_mistakes_skin: "default"   # options: air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
 
-# Author box (shows on Home & posts)
+# ── Author ────────────────────────────────────────────────────────────────────
 author:
-  name: "Your Name"
-  avatar: "/assets/img/profile.jpg"   # add an image later
-  bio: "Researcher | Dept, University."
+  name: "Lalith Krishna Samanth"
+  avatar: "/assets/img/lalith.png"
+  bio: >-
+    Ph.D. researcher at UIUC (Mechanical Science & Engineering).
+    I image electrode–electrolyte interfaces at the atomic scale and
+    occasionally teach neural nets to read AFM data.
+  location: "Urbana, IL"
   links:
-    - label: Email
-      icon: "fas fa-envelope"
-      url: "mailto:you@university.edu"
-    - label: Google Scholar
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/"
-    - label: GitHub
-      icon: "fab fa-github"
-      url: "https://github.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lkb3@illinois.edu"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=scholar_id"
+    - label: "ORCID"
+      icon: "ai ai-fw ai-orcid"
+      url: "https://orcid.org/0000-0001-5491-2097"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lalithkrishnasamanth"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lalith-krishna-samanth-779202120/"
+    - label: "Substack"
+      icon: "fas fa-fw fa-pen-nib"
+      url: "https://lalithkrishnasamanth.substack.com/"
 
-# Defaults
+# ── SEO & Social ──────────────────────────────────────────────────────────────
+og_image: "/assets/img/lalith.png"
+
+# ── Defaults ──────────────────────────────────────────────────────────────────
 defaults:
-  - scope: { path: "", type: "pages" }
+  - scope:
+      path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
-  - scope: { path: "", type: "posts" }
+  - scope:
+      path: ""
+      type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: false
+      show_date: true
 
-# Markdown & Math (optional)
+# ── Markdown & Syntax ─────────────────────────────────────────────────────────
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
+
+highlighter: rouge
+
+# ── Feed ──────────────────────────────────────────────────────────────────────
+feed:
+  path: feed.xml
