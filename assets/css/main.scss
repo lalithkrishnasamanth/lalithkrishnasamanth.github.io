@@ -1,0 +1,21 @@
+---
+# Only the main SCSS entry point needs front matter
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ── Profile photo: larger, gently rounded instead of circle ── */
+.author__avatar {
+  text-align: center;
+  margin-bottom: 0.5em;
+
+  img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 6px;   /* subtle rounding — not a circle */
+    border: none;
+  }
+}
