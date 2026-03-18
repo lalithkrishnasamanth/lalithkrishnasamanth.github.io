@@ -7,15 +7,38 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ── Profile photo: larger, gently rounded instead of circle ── */
+/* ── Widen the author sidebar so the photo has room ── */
+@media (min-width: 1024px) {
+  .sidebar.sticky {
+    width: 300px;
+  }
+  /* push the main content column to leave room for wider sidebar */
+  .page {
+    float: right;
+    width: calc(100% - 340px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .sidebar.sticky {
+    width: 340px;
+  }
+  .page {
+    width: calc(100% - 380px);
+  }
+}
+
+/* ── Profile photo: fill the sidebar, gentle rounding instead of circle ── */
 .author__avatar {
   text-align: center;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
 
   img {
+    display: block;
     width: 100%;
-    max-width: 220px;
-    border-radius: 6px;   /* subtle rounding — not a circle */
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
     border: none;
   }
 }
